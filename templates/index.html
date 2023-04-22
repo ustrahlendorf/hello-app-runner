@@ -181,14 +181,14 @@ html, body {
 			<img class="apprunner_icon" src="{{ full_url ~ 'static/apprunner_icon.svg' }}" />
 		</div>
 
-		<h1>And we're live!</h1>
+		<h1>And we're STILL live!</h1>
 		<div class="metadata">
 			<p>
         {% if ( '0.0' in full_url or 'localhost' in full_url )  %}
           <h2>Contratulations, you deployed the container locally.</h2>
           <p class="subtext">If you would like to run this container publicly check out the links below to get started.</p>
         {% else %}
-					<h2>Congratulations, your service has successfully deployed on AWS App Runner.</h2>
+					<h2>Congratulations, your service is now running on AWS App Runner.</h2>
         {% endif %}
 			</p>
 		</div>
